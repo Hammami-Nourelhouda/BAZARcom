@@ -1,0 +1,2 @@
+allemagne berlin 5 15 600000 0625153895 photosvoyages/002.jpg 
+e.a.u dubaï 5 10 1000000 0526369874 photosvoyages/001.jpg 

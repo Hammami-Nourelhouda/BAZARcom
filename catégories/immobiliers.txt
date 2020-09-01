@@ -1,0 +1,5 @@
+batna batna 200 notarié 3 25000000 0645871296 photosimmobiliers/001.jpg 
+batna arris 200 notarié 2 15000000 0548256955 photosimmobiliers/002.jpg 
+alger alger 100 notarié 1 40000000 0785431694 photosimmobiliers/003.jpg 
+oran oran 300 notarié 1 35000000 0523694517 photosimmobiliers/004.jpg 
+sétif sétif 150 notarié 2 30000000 0658471239 photosimmobiliers/005.jpg  

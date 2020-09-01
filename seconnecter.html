@@ -1,0 +1,66 @@
+<!--   déclaration de la partie head du code:
+ le titre de la page, la feuille dde style externe et l'icone afficher dans l'onglet du navigateur     -->
+<!DOCTYPE html >
+<html lang="fr">
+<head>
+     <meta charset="UTF-8"/>
+     <title> Se connecter </title>
+     <link rel="stylesheet" href="css/index.css"/>
+     <link rel="icon" type="image/png" href="icons&photos/logo.png"/>
+</head>
+<body>
+  <!--    déclaration de la partie entête  :
+  titre de la page au même temps c'est un lien interne vers la page principale, une bare de navigation: une liste non ordonée qui contient des liens vers des pages intérieurs    -->
+<header><a href="index.php"><span class="titlefirstpart">BAZAR</span><span class="titlesecondpart">com</a></span>
+  <nav class="header">
+    <ul>
+        <!--  un boutton de menu déroulant (dropdown)  contient des liens vers des pages intérieurs   -->
+      <div class="dropdown">
+    <button class="dropbtn"><img class="navigation" src="icons&photos/megaphone.png"  title="Créer un compte"/><b> Déposer une annonce</b></button>
+    <div class="dropdown-content">
+    <a href="déposeruneannonceimmobiliers.php">Immobilier</a>
+    <a href="déposeruneannoncetéléphones.php">Téléphones</a>
+    <a href="déposeruneannoncevihécules.php">Véhicules</a>
+    <a href="déposeruneannoncevoyages.php">Voyages</a>
+    </div>
+  </div>
+      <li class="header"><a class="navigation" href="créeruncompte.php"> <img class="navigation" src="icons&photos/user.png"  title="Créer un compte"/> Créer un compte</a></li>
+      <li class="header"><a class="navigation" href="contacteznous.php"><img class="navigation" src="icons&photos/email.png"  title="Contactez-Nous"/> Contactez-Nous</a></li>
+    </ul></nav></header>
+<br><br><br>
+<main class="seconnecter">
+  <!--   le formulaire de création de login:
+    après qu'il soit controlé ces informations seront envoyer par la méthode POST vers le fichier  de traitement php    -->
+
+<form class="seconnecter" method="POST" action="traitementdesformulaires/login.php">
+  <span class="login"> Se connecter</span>
+<br>
+<span class="loginnote"> NOTE: Vous devez vous connecter d'abord pour déposer une annonce !</span><br>
+  <label class="loginemail" for="email"> Email :</label>
+<br>
+  <input type="text" name="email"  id="email" placeholder="  ex: .......@gmail.com"/>
+ <br>
+  <label class="loginpassword" for="password">Mot de passe :</label>
+<br>
+  <input type="password" name="password"  id="password"/>
+<br><br>
+  <input class="submit" type="submit" name="Connecter" value="Connecter"/>
+
+<br><br>
+</form>
+<br><br><br>
+</main>
+<!--  un pied de page contient un lien interne vers la page principale + quelque liens vers des pages intérieurs  et de plus un lien vers une page de contact  -->
+  <footer>
+  <br>
+    <table>
+      <tr>
+        <td class="left">
+          Annonces <a class="footer"href="catégories/immobiliers.php">immobilier</a> <br>
+              Annonces<a class="footer" href="catégories/téléphones.php"> téléphones </a><br>
+          Annonces <a  class="footer"href="catégories/vihécules.php">véhicules</a><br>
+          Annonces<a class="footer"href="catégories/voyages.php"> voyages</a> </td>
+<td class="right"><a href="index.php"><span class="footerfirst">BAZAR</span><span class="footersecond">com</span><a class="navigation" href="contacteznous.php">    Contactez-Nous</a>
+<p class="copyrights">Conçu par HAMMAMI NOURELHOUDA 2020 <img class="copyrights"src="icons&photos/copyright.png" /> Tous droits réservés</p></td></tr></table><br></footer>
+</body>
+</html>

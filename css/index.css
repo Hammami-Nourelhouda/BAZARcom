@@ -1,0 +1,138 @@
+
+/********************** style de la page d'accueil ************/
+
+span.titlesecondpart{font-family:Calibri; font-size: 250%;color:LightSlateGray;padding-right: 3%;}
+span.titlefirstpart{font-family:Calibri; font-size: 500%;color:LightSlateGray;padding-left: 5%;padding-right: 0%;}
+nav{width: 70%;}
+body{margin: 0%;background-image: url(../icons&photos/main.png);overflow: auto;padding: 0%;}
+.header{display: inline-block;}
+li.header{font-family:Calibri; font-size:100%;width: 24%;padding-bottom: 0.5%;text-align:right;margin: 0;}
+a.navigation{border-bottom: 2px solid white;padding-bottom:5px;text-decoration: none;;color:white;font-family: Calibri;font-size: 120%;font-weight: bold;font-variant: small-caps;}
+.dropbtn {color: white;padding: 5px;font-size: 120%;border: none;background-image: url(../icons&photos/header.png);font-weight: bold;font-variant: small-caps;font-family: Calibri;}
+.dropdown {position: relative;display: inline-block;width:24%;border-bottom: 2px solid white;}
+.dropdown-content {display: none;position: absolute;background-image: url(../icons&photos/header.png);min-width: 160px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1;font-family: Calibri;font-weight: bold;font-variant: small-caps;font-size: 120%;}
+.dropdown-content a {color: white;padding: 12px 16px;text-decoration: none;display: block;}
+.dropdown-content a:hover {background-color: LightSlateGray;}
+.dropdown:hover .dropdown-content {display: block;}
+header{background-image: url(../icons&photos/header.png);}
+main{font-family: Calibri;font-size: 120%;line-height: 1.5;font-variant: small-caps;width: 60%;float:right;}
+span.mainfirst{font-size:110%;color:LightSlateGray;font-family: Calibri;}
+span.mainsecond{color:LightSlateGray;font-size: 60%;font-family: Calibri;}
+footer{bottom: 0;left: 0;right: 0;background-image: url(../icons&photos/header.png) ;font-family: Calibri;font-size: 120%;color: white;clear: both;}
+td.right{width:50%;text-align: left;border-left: 2px solid LightSlateGray;}
+td.left{font-family: Calibri;font-size: 100%;font-variant: small-caps;line-height: 1.5;padding-left: 10%;text-align: left;}
+table{width:100%;}
+a.navigation:hover{background-color:LightSlateGray;color:white;padding: 5px;}
+p.first{width: 70%;background-image: url(../icons&photos/paragraph.png);margin-left:5%;text-align: justify;;border-radius: 8px;padding:1%;border-bottom: 5px solid DodgerBlue;}
+p.second{width:70%;background-image: url(../icons&photos/paragraph.png);margin-left:5%;text-align: justify;border-radius: 8px;padding:1%;border-bottom: 5px solid DodgerBlue;}
+p.third{width: 70%;background-image: url(../icons&photos/paragraph.png);margin-left:5%;text-align: justify;border-radius: 8px;padding: 1%;border-bottom: 5px solid DodgerBlue;}
+a{text-decoration: none;}
+span.footerfirst{font-family:Calibri; font-size: 400%;color:LightSlateGray;}
+span.footersecond{font-family:Calibri; font-size: 200%;color:LightSlateGray;padding-right: 0%;}
+a.footer{font-family: Calibri;color: LightSlateGray;}
+a.footer:hover{background-color:LightSlateGray;color:white;border-radius: 4px;border: 2px solid LightSlateGray;padding: 2px;}
+span.login{font-family: Brush Script MT;font-size: 300%;color: black;}
+img.navigation{width:9%;}
+aside{width: 30%;float:left;}
+li.catégories{color: black;font-family: Calibri;font-size: 150%;font-variant: small-caps;width: 55%;margin: 0 auto;font-weight: bold;background-image: url(../paragraph.png);padding: 5px;border-radius: 4px;border-bottom: 1px solid LightSlateGray;}
+ul.catégories{width:80%;margin: 30% auto;list-style: none;}
+a.catégories{text-decoration: none;color: black;}
+img.catégories{width:13%;}
+a.catégories:hover{background-color:PowderBlue;border-radius: 4px;border-bottom: 1px solid PowderBlue;}
+p.copyrights{color: white; font-size: 80%; font-family: Calibri; font-variant: small-caps;margin-left: 30%}
+img.copyrights{width: 3%;}
+
+/********************* style de la page de création d'un compte   *******************/
+
+
+main.creataccount{width: 100%;text-align: center;}
+p.creataccountparagraph{font-size: 120%;background-image: url(../icons&photos/paragraph.png);border-radius: 20px;padding:1%;border-bottom: 5px solid yellow;border-left: 5px solid yellow;width: 75%;margin: 0 auto;}
+h2.creataccounttitle{font-size: 200%;color: yellow;}
+form.creataccount{width:50%;background-color: Gainsboro;border-radius: 15px;border:2px solid Gainsboro;text-align: right;margin: 0 auto;}
+label.creataccount{font-style: Calibri;color: black;font-weight: normal;font-variant: normal;padding-right: 2%;}
+label.creataccountspecial{font-style: Calibri;color:gray;font-weight: normal;font-variant: normal;font-size: 100%;padding-right:20%;}
+input.creataccount{width: 70%;background-color: silver;border-radius: 10px;border: 2px solid silver;margin-right: 7%;margin-bottom: 2.5%;font-family: Calibri;font-size: 100%;}
+span.creataccount{margin-right: 30%;font-family: Brush Script MT;font-size: 300%;color: black;font-variant: normal;border-radius: 10px;border-top: 4px solid yellow;border-right: 4px solid yellow;padding: 1%;}
+input.saveaccount{width: 20%;background-color: Magenta;border-radius: 10px;border: 2px solid Magenta;color: white;font-family: Calibri;font-weight: bold;font-size: 130%;margin-right: 7%;}
+input.creataccountspecial{margin-bottom: 0%;width: 70%;background-color: silver;border-radius: 10px;border: 2px solid silver;margin-right: 7%;font-family: Calibri;font-size: 100%;}
+
+
+/********************* style de la page de login   *****************/
+main.seconnecter{width: 100%;}
+form.seconnecter{background-color: Gainsboro;border-radius: 4px;border: 2px solid Gainsboro;width:40%;text-align: center;margin: 0 auto;}
+label.loginemail{width: 100%;font-size: 120%;color: black;font-variant: small-caps;padding-right: 60%;}
+label.loginpassword{width: 100%;font-size: 120%;color: black;font-variant: small-caps;padding-right: 48%;}
+input{background-color: white;border-radius: 10px;border: 2px solid white;margin-bottom: 1%;padding: 1%;width:70%;font-family: Calibri;font-size: 90%;}
+input.submit{background-color: Magenta;border-radius: 4px;border: 2px solid Magenta; color: white;margin-left: 55%;font-size: 100%;font-family: Calibri;width:25%;}
+span.login{font-family: Brush Script MT;font-size: 400%;color: black;font-weight: bolder;font-variant: normal;}
+span.loginnote{width: 30%;font-family: Calibri;font-weight: bold;color: red;font-variant: small-caps;padding: 0.5%;margin: 0 auto;border: 0px solid red;}
+
+/***************** style de la page de contactez-nous ************/
+main.contacteznous{width: 100%;text-align: center;}
+p.contacteznous{font-size: 120%;background-image: url(../icons&photos/paragraph.png);border-radius: 20px;padding:1%;border-bottom: 5px solid paleGreen;border-left: 5px solid paleGreen;width: 70%;margin: 0 auto;}
+h2.contacteznous{font-size: 200%;color: paleGreen;}
+form.contacteznous{width:50%;background-color: paleGreen;border-radius: 15px;border:2px solid Palegreen;text-align: right;margin: 0 auto;}
+label.contacteznous{font-style: Calibri;color: black;font-weight:bold;font-variant:small-caps;;padding-right: 80%;}
+input.contacteznous{width: 70%;background-color: white;border-radius: 10px;border: 2px solid white;margin-right: 7%;margin-bottom: 2.5%;font-family: Calibri;font-size: 100%;padding-left: 1%;}
+span.contacteznous{margin-right: 20%;font-family: Calibri;font-size: 300%;color: white;font-variant: small-caps;;border-radius: 10px;border-top: 4px solid white;border-right: 4px solid white;padding: 1%;}
+input.contacteznoussubmit{width: 20%;background-color: DarkOrange;border-radius: 10px;border: 2px solid DarkOrange;color: white;font-family: Calibri;font-weight: bold;font-size: 130%;margin-right: 7%;}
+textarea.contacteznous{width: 70%;background-color: white;border-radius: 10px;border: 2px solid white;margin-right: 7%;font-family: Calibri;font-size: 100%;margin-bottom:2.5%;padding-left: 1%;}
+
+
+/******************* style de la page des catégories: Immobiliers  ******************/
+a.actuel{background-color:PowderBlue;border-radius: 4px;border-bottom: 1px solid PowderBlue;color: black;}
+main.catégories{font-family: Calibri;font-size: 120%;line-height: 1.5;font-variant: small-caps;width: 60%;float:right;border-left: 2px solid Gainsboro; }
+h2.immobiliers{font-size: 200%;color:  MediumSlateBlue;text-align: center;}
+td.img{width: 20%;padding-left: 2%;}
+td.description{width: 80%;line-height:0.5;font-size: 80%;border-bottom: 2px solid Gainsboro;font-weight: bold;padding-left: 2%;}
+img.img{width: 100%;}
+span.immobiliers{color: MediumSlateBlue;}
+table.catégories{background-image: url(../icons&photos/paragraph.png);}
+
+
+/****************** style de la page des catégories: Téléphones   **************/
+h2.téléphones{font-size: 200%;color:  Indigo;text-align: center;}
+span.téléphones{color:Indigo;}
+
+
+/****************** style de la page des catégories: Vihécules   ************/
+h2.vihécules{font-size: 200%;color:  Crimson;text-align: center;}
+span.vihécules{color:Crimson;}
+
+/****************** style de la page des catégories: Voyages ************/
+h2.voyages{font-size: 200%;color: Rosybrown;text-align: center;}
+span.voyages{color:Rosybrown;}
+
+
+/*************** style de la page Compte créé ************/
+main.accountcreated{width: 50%;margin: 0 auto;float: none;}
+img.accountcreated{width: 15%;padding-top: 3%;float: left;}
+p.accountcreated{width:80%;font-weight: bold;font-size: 120%;float: right;}
+
+/*********** style de la page de déposement des annonces immobiliers   *************/
+main.déposeruneannonce{width: 100%;float: none;text-align: left;}
+form.déposeruneannonce{width:70%; margin: 0 auto;background-color: Gainsboro;text-align: center;border-radius: 10px;border: 1px solid Gainsboro;font-family: Calibri;font-variant: small-caps;text-align: center;}
+label.déposeruneannonce{width:5%;font-weight: bold;font-size: 110%;}
+span.déposeruneannonce{width:5%;font-weight: bold;font-size: 110%;margin-right: 2.5%;}
+input.déposeruneannoncem{width: 15%;padding: 0;font-size: 100%;background-color: silver;border-radius: 7px;border: 1px solid silver;padding: 5px;margin-right: 19%}
+input.déposeruneannonce{width: 15%;padding: 0;font-size: 100%;background-color: silver;border-radius: 7px;border: 1px solid silver;padding: 5px;margin-right: 20%}
+select.déposeruneannonce{width:15.5%;background-color: silver;border-radius: 7px;border: 1px solid silver;padding: 5px;font-family: Calibri;font-weight: bold;font-variant: small-caps;font-size: 100%;margin-right: 20%;margin-bottom: 2%}
+input.déposeruneannonceradio{width: 3%;margin-right: 4%;}
+input.déposeruneannoncefile{width: 38%;background-color: silver;padding: 0;border: 1px solid silver;border-radius: 0;}
+input.déposeruneannoncevalidation{width:10%;padding: 4px;font-family: Calibri;font-weight: bold;font-size: 130%;background-color: MediumSlateBlue;color:white;font-variant: small-caps;border: 1px solid MediumSlateBlue;border-radius: 5px;margin-left: 70%;}
+
+/************** style de la page de déposement des annonces téléphones    *******************/
+input.déposeruneannoncevalidationt{width:10%;padding: 4px;font-family: Calibri;font-weight: bold;font-size: 130%;background-color: Indigo;color:white;font-variant: small-caps;border: 1px solid Indigo;border-radius: 5px;margin-left: 70%;}
+input.déposeruneannoncec{width: 15%;padding: 0;font-size: 100%;background-color: silver;border-radius: 7px;border: 1px solid silver;padding: 5px;margin-right: 22%}
+input.déposeruneannoncet{width: 15%;padding: 0;font-size: 100%;background-color: silver;border-radius: 7px;border: 1px solid silver;padding: 5px;margin-right: 17%}
+
+
+/************* style de la page de déposement des annonces vihécules    ********************/
+input.déposeruneannoncevalidationv{width:10%;padding: 4px;font-family: Calibri;font-weight: bold;font-size: 130%;background-color: Crimson;color:white;font-variant: small-caps;border: 1px solid Crimson;border-radius: 5px;margin-left: 70%;}
+
+/************ style de la page de déposement des annonces voyages  **********/
+input.déposeruneannoncevalidationvy{width:10%;padding: 4px;font-family: Calibri;font-weight: bold;font-size: 130%;background-color: Rosybrown;color:white;font-variant: small-caps;border: 1px solid Rosybrown;border-radius: 5px;margin-left: 70%;}
+input.déposeruneannonced{width: 15%;padding: 0;font-size: 100%;background-color: silver;border-radius: 7px;border: 1px solid silver;padding: 5px;margin-right: 0%}
+select.déposeruneannonceh{width:15.5%;background-color: silver;border-radius: 7px;border: 1px solid silver;padding: 5px;font-family: Calibri;font-weight: bold;font-variant: small-caps;font-size: 100%;margin-right: 0%;margin-bottom: 2%}
+label.déposeruneannoncee{width:5%;font-weight: bold;font-size: 110%;padding-right: 13.5%}
+span.déposeruneannoncenote{width: 60%;font-family: Calibri;font-weight: bold;color: red;border-radius: 3px;border: 2px solid red;font-variant: small-caps;padding: 0.5%;}
